@@ -26,17 +26,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    GTMOAuth2Authentication *auth = [GTMOAuth2ViewControllerTouch
-                                     authForGoogleFromKeychainForName:KeychainItemName
-                                     clientID:ClientID
-                                     clientSecret:nil];
-    self.auth = auth;
+    self.auth = nil;
     self.contactJSONMapper = [[ContactJSONMapper alloc] init];
     
     self.imageLoader = [[ImageLoader alloc] init];
     self.imageLoader.delegate = self;
-    self.imageLoader.auth = auth;
 }
 
 #pragma mark - UITableViewDataSource
@@ -129,7 +123,6 @@
     else {
         self.auth = authResult;
         self.imageLoader.auth = authResult;
-        //self.service.authorizer = authResult;
         [self dismissViewControllerAnimated:YES completion:nil];
     }
 }
@@ -154,7 +147,7 @@
 
 #pragma mark - IBActions
 - (IBAction)loginAction:(id)sender {
-    if (!self.auth.canAuthorize) {
+    if (self.auth == nil || !self.auth.canAuthorize) {
         [self presentViewController:[self createAuthController] animated:YES completion:nil];
     }
 }

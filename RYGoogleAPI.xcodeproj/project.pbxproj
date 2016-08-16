@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4EE9C6F71D6319D700411D6C /* QuickstartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE9C6F71D6319D700411D6C /* RYGoogleAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYGoogleAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE9C6FB1D6319D800411D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EE9C6FD1D6319D800411D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EE9C6FE1D6319D800411D6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		4EE9C6F81D6319D700411D6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EE9C6F71D6319D700411D6C /* QuickstartApp.app */,
+				4EE9C6F71D6319D700411D6C /* RYGoogleAPI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EE9C6F61D6319D700411D6C /* QuickstartApp */ = {
+		4EE9C6F61D6319D700411D6C /* RYGoogleAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE9C70E1D6319D800411D6C /* Build configuration list for PBXNativeTarget "QuickstartApp" */;
+			buildConfigurationList = 4EE9C70E1D6319D800411D6C /* Build configuration list for PBXNativeTarget "RYGoogleAPI" */;
 			buildPhases = (
 				78E607F9B6BF92FF4C74E891 /* [CP] Check Pods Manifest.lock */,
 				4EE9C6F31D6319D700411D6C /* Sources */,
@@ -141,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = QuickstartApp;
+			name = RYGoogleAPI;
 			productName = QuickstartApp;
-			productReference = 4EE9C6F71D6319D700411D6C /* QuickstartApp.app */;
+			productReference = 4EE9C6F71D6319D700411D6C /* RYGoogleAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -160,7 +160,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4EE9C6F21D6319D700411D6C /* Build configuration list for PBXProject "QuickstartApp" */;
+			buildConfigurationList = 4EE9C6F21D6319D700411D6C /* Build configuration list for PBXProject "RYGoogleAPI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EE9C6F61D6319D700411D6C /* QuickstartApp */,
+				4EE9C6F61D6319D700411D6C /* RYGoogleAPI */,
 			);
 		};
 /* End PBXProject section */
@@ -366,7 +366,7 @@
 				INFOPLIST_FILE = QuickstartApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RYGoogleAPI;
 			};
 			name = Debug;
 		};
@@ -378,14 +378,14 @@
 				INFOPLIST_FILE = QuickstartApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RYGoogleAPI;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EE9C6F21D6319D700411D6C /* Build configuration list for PBXProject "QuickstartApp" */ = {
+		4EE9C6F21D6319D700411D6C /* Build configuration list for PBXProject "RYGoogleAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EE9C70C1D6319D800411D6C /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EE9C70E1D6319D800411D6C /* Build configuration list for PBXNativeTarget "QuickstartApp" */ = {
+		4EE9C70E1D6319D800411D6C /* Build configuration list for PBXNativeTarget "RYGoogleAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EE9C70F1D6319D800411D6C /* Debug */,
