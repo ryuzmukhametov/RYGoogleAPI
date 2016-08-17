@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		251D460E0D3CB139C9CEF5CE /* libPods-QuickstartApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FFC089A39984E1616FAC4A /* libPods-QuickstartApp.a */; };
 		4EE9C6FC1D6319D800411D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9C6FB1D6319D800411D6C /* main.m */; };
 		4EE9C6FF1D6319D800411D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9C6FE1D6319D800411D6C /* AppDelegate.m */; };
 		4EE9C7021D6319D800411D6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9C7011D6319D800411D6C /* ViewController.m */; };
@@ -53,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251D460E0D3CB139C9CEF5CE /* libPods-QuickstartApp.a in Frameworks */,
 				53860C918A1EE9C2B72E7C9E /* libPods-RYGoogleAPI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
