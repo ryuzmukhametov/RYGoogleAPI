@@ -18,6 +18,7 @@
 		4EE9C7171D635BE500411D6C /* ContactEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9C7161D635BE500411D6C /* ContactEntry.m */; };
 		4EE9C71A1D635C6000411D6C /* ContactJSONMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9C7191D635C6000411D6C /* ContactJSONMapper.m */; };
 		4EE9C71D1D635D3200411D6C /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9C71C1D635D3200411D6C /* ImageLoader.m */; };
+		53860C918A1EE9C2B72E7C9E /* libPods-RYGoogleAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CBE7A9F802CDE455AECF24 /* libPods-RYGoogleAPI.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +40,12 @@
 		4EE9C7191D635C6000411D6C /* ContactJSONMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactJSONMapper.m; sourceTree = "<group>"; };
 		4EE9C71B1D635D3200411D6C /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
 		4EE9C71C1D635D3200411D6C /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
+		56CBE7A9F802CDE455AECF24 /* libPods-RYGoogleAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYGoogleAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A17A8E6CE92943043003AF4 /* Pods-RYGoogleAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYGoogleAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYGoogleAPI/Pods-RYGoogleAPI.release.xcconfig"; sourceTree = "<group>"; };
 		9D97C364C0CD563CB9737523 /* Pods-QuickstartApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A6FFC089A39984E1616FAC4A /* libPods-QuickstartApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickstartApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A3CD004E9EDED09729B410 /* Pods-QuickstartApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.release.xcconfig"; sourceTree = "<group>"; };
+		D6B73CEC9599E748AD66D8D7 /* Pods-RYGoogleAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYGoogleAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYGoogleAPI/Pods-RYGoogleAPI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				251D460E0D3CB139C9CEF5CE /* libPods-QuickstartApp.a in Frameworks */,
+				53860C918A1EE9C2B72E7C9E /* libPods-RYGoogleAPI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				A6FFC089A39984E1616FAC4A /* libPods-QuickstartApp.a */,
+				56CBE7A9F802CDE455AECF24 /* libPods-RYGoogleAPI.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			children = (
 				9D97C364C0CD563CB9737523 /* Pods-QuickstartApp.debug.xcconfig */,
 				B3A3CD004E9EDED09729B410 /* Pods-QuickstartApp.release.xcconfig */,
+				D6B73CEC9599E748AD66D8D7 /* Pods-RYGoogleAPI.debug.xcconfig */,
+				8A17A8E6CE92943043003AF4 /* Pods-RYGoogleAPI.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -204,7 +212,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYGoogleAPI/Pods-RYGoogleAPI-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		78E607F9B6BF92FF4C74E891 /* [CP] Check Pods Manifest.lock */ = {
@@ -234,7 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYGoogleAPI/Pods-RYGoogleAPI-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -360,7 +368,7 @@
 		};
 		4EE9C70F1D6319D800411D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D97C364C0CD563CB9737523 /* Pods-QuickstartApp.debug.xcconfig */;
+			baseConfigurationReference = D6B73CEC9599E748AD66D8D7 /* Pods-RYGoogleAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickstartApp/Info.plist;
@@ -372,7 +380,7 @@
 		};
 		4EE9C7101D6319D800411D6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3A3CD004E9EDED09729B410 /* Pods-QuickstartApp.release.xcconfig */;
+			baseConfigurationReference = 8A17A8E6CE92943043003AF4 /* Pods-RYGoogleAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickstartApp/Info.plist;
